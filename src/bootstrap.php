@@ -22,8 +22,10 @@ $whoops->register();
 
 //throw new \Exception; // exception
 
-$request = new \Http\HttpRequest($_GET, $_POST, $_COOKIE, $_FILES, $_SERVER);
-$response = new \Http\HttpResponse;
+$injector = include('Dependencies.php');
+
+$request = $injector->make('Http\HttpRequest');
+$response = $injector->make('Http\HttpResponse');
 
 foreach ($response->getHeaders() as $header) {
     header($header, false);
