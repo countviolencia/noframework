@@ -11,6 +11,10 @@ class ComposerStaticInitcf4aa5578be1ea9637b17cdfccaf3b2a
         array (
             'Whoops\\' => 7,
         ),
+        'H' => 
+        array (
+            'Http\\' => 5,
+        ),
         'E' => 
         array (
             'Example\\' => 8,
@@ -21,6 +25,10 @@ class ComposerStaticInitcf4aa5578be1ea9637b17cdfccaf3b2a
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/patricklouys/http/src',
         ),
         'Example\\' => 
         array (
