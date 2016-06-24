@@ -27,6 +27,10 @@ class ComposerStaticInitcf4aa5578be1ea9637b17cdfccaf3b2a
         array (
             'Example\\' => 8,
         ),
+        'A' => 
+        array (
+            'Auryn\\' => 6,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -45,6 +49,10 @@ class ComposerStaticInitcf4aa5578be1ea9637b17cdfccaf3b2a
         'Example\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Auryn\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rdlowrey/auryn/lib',
         ),
     );
 
